@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C9FEFBB1D63A79A0061E5D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9FEFBA1D63A79A0061E5D4 /* main.m */; };
+		7C9FEFBE1D63A79A0061E5D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9FEFBD1D63A79A0061E5D4 /* AppDelegate.m */; };
+		7C9FEFC11D63A79A0061E5D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9FEFC01D63A79A0061E5D4 /* ViewController.m */; };
+		7C9FEFC41D63A79A0061E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9FEFC21D63A79A0061E5D4 /* Main.storyboard */; };
+		7C9FEFC61D63A79A0061E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9FEFC51D63A79A0061E5D4 /* Assets.xcassets */; };
+		7C9FEFC91D63A79A0061E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9FEFC71D63A79A0061E5D4 /* LaunchScreen.storyboard */; };
+		7C9FEFD41D63A79A0061E5D4 /* SpartanDailyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9FEFD31D63A79A0061E5D4 /* SpartanDailyTests.m */; };
+		7C9FEFDF1D63A79A0061E5D4 /* SpartanDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9FEFDE1D63A79A0061E5D4 /* SpartanDailyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C9FEFD01D63A79A0061E5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C9FEFAE1D63A79A0061E5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C9FEFB51D63A79A0061E5D4;
+			remoteInfo = SpartanDaily;
+		};
+		7C9FEFDB1D63A79A0061E5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C9FEFAE1D63A79A0061E5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C9FEFB51D63A79A0061E5D4;
+			remoteInfo = SpartanDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C9FEFB61D63A79A0061E5D4 /* SpartanDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9FEFBA1D63A79A0061E5D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C9FEFBC1D63A79A0061E5D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C9FEFBD1D63A79A0061E5D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C9FEFBF1D63A79A0061E5D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C9FEFC01D63A79A0061E5D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C9FEFC31D63A79A0061E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C9FEFC51D63A79A0061E5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C9FEFC81D63A79A0061E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C9FEFCA1D63A79A0061E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9FEFCF1D63A79A0061E5D4 /* SpartanDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpartanDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9FEFD31D63A79A0061E5D4 /* SpartanDailyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpartanDailyTests.m; sourceTree = "<group>"; };
+		7C9FEFD51D63A79A0061E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9FEFDA1D63A79A0061E5D4 /* SpartanDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpartanDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9FEFDE1D63A79A0061E5D4 /* SpartanDailyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpartanDailyUITests.m; sourceTree = "<group>"; };
+		7C9FEFE01D63A79A0061E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C9FEFB31D63A79A0061E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9FEFCC1D63A79A0061E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9FEFD71D63A79A0061E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C9FEFAD1D63A79A0061E5D4 = {
+			isa = PBXGroup;
+			children = (
+				7C9FEFB81D63A79A0061E5D4 /* SpartanDaily */,
+				7C9FEFD21D63A79A0061E5D4 /* SpartanDailyTests */,
+				7C9FEFDD1D63A79A0061E5D4 /* SpartanDailyUITests */,
+				7C9FEFB71D63A79A0061E5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C9FEFB71D63A79A0061E5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C9FEFB61D63A79A0061E5D4 /* SpartanDaily.app */,
+				7C9FEFCF1D63A79A0061E5D4 /* SpartanDailyTests.xctest */,
+				7C9FEFDA1D63A79A0061E5D4 /* SpartanDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C9FEFB81D63A79A0061E5D4 /* SpartanDaily */ = {
+			isa = PBXGroup;
+			children = (
+				7C9FEFBC1D63A79A0061E5D4 /* AppDelegate.h */,
+				7C9FEFBD1D63A79A0061E5D4 /* AppDelegate.m */,
+				7C9FEFBF1D63A79A0061E5D4 /* ViewController.h */,
+				7C9FEFC01D63A79A0061E5D4 /* ViewController.m */,
+				7C9FEFC21D63A79A0061E5D4 /* Main.storyboard */,
+				7C9FEFC51D63A79A0061E5D4 /* Assets.xcassets */,
+				7C9FEFC71D63A79A0061E5D4 /* LaunchScreen.storyboard */,
+				7C9FEFCA1D63A79A0061E5D4 /* Info.plist */,
+				7C9FEFB91D63A79A0061E5D4 /* Supporting Files */,
+			);
+			path = SpartanDaily;
+			sourceTree = "<group>";
+		};
+		7C9FEFB91D63A79A0061E5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9FEFBA1D63A79A0061E5D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C9FEFD21D63A79A0061E5D4 /* SpartanDailyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C9FEFD31D63A79A0061E5D4 /* SpartanDailyTests.m */,
+				7C9FEFD51D63A79A0061E5D4 /* Info.plist */,
+			);
+			path = SpartanDailyTests;
+			sourceTree = "<group>";
+		};
+		7C9FEFDD1D63A79A0061E5D4 /* SpartanDailyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C9FEFDE1D63A79A0061E5D4 /* SpartanDailyUITests.m */,
+				7C9FEFE01D63A79A0061E5D4 /* Info.plist */,
+			);
+			path = SpartanDailyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C9FEFB51D63A79A0061E5D4 /* SpartanDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9FEFE31D63A79A0061E5D4 /* Build configuration list for PBXNativeTarget "SpartanDaily" */;
+			buildPhases = (
+				7C9FEFB21D63A79A0061E5D4 /* Sources */,
+				7C9FEFB31D63A79A0061E5D4 /* Frameworks */,
+				7C9FEFB41D63A79A0061E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartanDaily;
+			productName = SpartanDaily;
+			productReference = 7C9FEFB61D63A79A0061E5D4 /* SpartanDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C9FEFCE1D63A79A0061E5D4 /* SpartanDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9FEFE61D63A79A0061E5D4 /* Build configuration list for PBXNativeTarget "SpartanDailyTests" */;
+			buildPhases = (
+				7C9FEFCB1D63A79A0061E5D4 /* Sources */,
+				7C9FEFCC1D63A79A0061E5D4 /* Frameworks */,
+				7C9FEFCD1D63A79A0061E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C9FEFD11D63A79A0061E5D4 /* PBXTargetDependency */,
+			);
+			name = SpartanDailyTests;
+			productName = SpartanDailyTests;
+			productReference = 7C9FEFCF1D63A79A0061E5D4 /* SpartanDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C9FEFD91D63A79A0061E5D4 /* SpartanDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9FEFE91D63A79A0061E5D4 /* Build configuration list for PBXNativeTarget "SpartanDailyUITests" */;
+			buildPhases = (
+				7C9FEFD61D63A79A0061E5D4 /* Sources */,
+				7C9FEFD71D63A79A0061E5D4 /* Frameworks */,
+				7C9FEFD81D63A79A0061E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C9FEFDC1D63A79A0061E5D4 /* PBXTargetDependency */,
+			);
+			name = SpartanDailyUITests;
+			productName = SpartanDailyUITests;
+			productReference = 7C9FEFDA1D63A79A0061E5D4 /* SpartanDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C9FEFAE1D63A79A0061E5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sameer Jauhar";
+				TargetAttributes = {
+					7C9FEFB51D63A79A0061E5D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7C9FEFCE1D63A79A0061E5D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7C9FEFB51D63A79A0061E5D4;
+					};
+					7C9FEFD91D63A79A0061E5D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7C9FEFB51D63A79A0061E5D4;
+					};
+				};
+			};
+			buildConfigurationList = 7C9FEFB11D63A79A0061E5D4 /* Build configuration list for PBXProject "SpartanDaily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C9FEFAD1D63A79A0061E5D4;
+			productRefGroup = 7C9FEFB71D63A79A0061E5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C9FEFB51D63A79A0061E5D4 /* SpartanDaily */,
+				7C9FEFCE1D63A79A0061E5D4 /* SpartanDailyTests */,
+				7C9FEFD91D63A79A0061E5D4 /* SpartanDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C9FEFB41D63A79A0061E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9FEFC91D63A79A0061E5D4 /* LaunchScreen.storyboard in Resources */,
+				7C9FEFC61D63A79A0061E5D4 /* Assets.xcassets in Resources */,
+				7C9FEFC41D63A79A0061E5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9FEFCD1D63A79A0061E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9FEFD81D63A79A0061E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C9FEFB21D63A79A0061E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9FEFC11D63A79A0061E5D4 /* ViewController.m in Sources */,
+				7C9FEFBE1D63A79A0061E5D4 /* AppDelegate.m in Sources */,
+				7C9FEFBB1D63A79A0061E5D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9FEFCB1D63A79A0061E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9FEFD41D63A79A0061E5D4 /* SpartanDailyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9FEFD61D63A79A0061E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9FEFDF1D63A79A0061E5D4 /* SpartanDailyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C9FEFD11D63A79A0061E5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C9FEFB51D63A79A0061E5D4 /* SpartanDaily */;
+			targetProxy = 7C9FEFD01D63A79A0061E5D4 /* PBXContainerItemProxy */;
+		};
+		7C9FEFDC1D63A79A0061E5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C9FEFB51D63A79A0061E5D4 /* SpartanDaily */;
+			targetProxy = 7C9FEFDB1D63A79A0061E5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C9FEFC21D63A79A0061E5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9FEFC31D63A79A0061E5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C9FEFC71D63A79A0061E5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9FEFC81D63A79A0061E5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C9FEFE11D63A79A0061E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C9FEFE21D63A79A0061E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C9FEFE41D63A79A0061E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpartanDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.SpartanDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C9FEFE51D63A79A0061E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpartanDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.SpartanDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C9FEFE71D63A79A0061E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpartanDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.SpartanDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpartanDaily.app/SpartanDaily";
+			};
+			name = Debug;
+		};
+		7C9FEFE81D63A79A0061E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpartanDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.SpartanDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpartanDaily.app/SpartanDaily";
+			};
+			name = Release;
+		};
+		7C9FEFEA1D63A79A0061E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpartanDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.SpartanDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpartanDaily;
+			};
+			name = Debug;
+		};
+		7C9FEFEB1D63A79A0061E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpartanDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.SpartanDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpartanDaily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C9FEFB11D63A79A0061E5D4 /* Build configuration list for PBXProject "SpartanDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9FEFE11D63A79A0061E5D4 /* Debug */,
+				7C9FEFE21D63A79A0061E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C9FEFE31D63A79A0061E5D4 /* Build configuration list for PBXNativeTarget "SpartanDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9FEFE41D63A79A0061E5D4 /* Debug */,
+				7C9FEFE51D63A79A0061E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C9FEFE61D63A79A0061E5D4 /* Build configuration list for PBXNativeTarget "SpartanDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9FEFE71D63A79A0061E5D4 /* Debug */,
+				7C9FEFE81D63A79A0061E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C9FEFE91D63A79A0061E5D4 /* Build configuration list for PBXNativeTarget "SpartanDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9FEFEA1D63A79A0061E5D4 /* Debug */,
+				7C9FEFEB1D63A79A0061E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C9FEFAE1D63A79A0061E5D4 /* Project object */;
+}
